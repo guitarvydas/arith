@@ -1,0 +1,328 @@
+[
+  {
+    "name": "main",
+    "children": [
+      {
+        "name": "To Common Lisp",
+        "id": 8
+      },
+      {
+        "name": "Read Text File",
+        "id": 12
+      },
+      {
+        "name": "To Javascript",
+        "id": 16
+      },
+      {
+        "name": "To Python",
+        "id": 20
+      },
+      {
+        "name": "To Wasm",
+        "id": 24
+      }
+    ],
+    "connections": [
+      {
+        "dir": 0,
+        "source_port": "",
+        "target_port": "",
+        "target": {
+          "name": "Read Text File",
+          "id": 12
+        }
+      },
+      {
+        "dir": 1,
+        "source_port": "",
+        "target_port": "",
+        "source": {
+          "name": "Read Text File",
+          "id": 12
+        },
+        "target": {
+          "name": "To Common Lisp",
+          "id": 8
+        }
+      },
+      {
+        "dir": 1,
+        "source_port": "",
+        "target_port": "",
+        "source": {
+          "name": "Read Text File",
+          "id": 12
+        },
+        "target": {
+          "name": "To Javascript",
+          "id": 16
+        }
+      },
+      {
+        "dir": 1,
+        "source_port": "",
+        "target_port": "",
+        "source": {
+          "name": "Read Text File",
+          "id": 12
+        },
+        "target": {
+          "name": "To Python",
+          "id": 20
+        }
+      },
+      {
+        "dir": 1,
+        "source_port": "",
+        "target_port": "",
+        "source": {
+          "name": "Read Text File",
+          "id": 12
+        },
+        "target": {
+          "name": "To Wasm",
+          "id": 24
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "",
+        "target_port": "CommonLisp",
+        "source": {
+          "name": "To Common Lisp",
+          "id": 8
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "✗",
+        "target_port": "✗",
+        "source": {
+          "name": "To Common Lisp",
+          "id": 8
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "✗",
+        "target_port": "✗",
+        "source": {
+          "name": "Read Text File",
+          "id": 12
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "✗",
+        "target_port": "✗",
+        "source": {
+          "name": "To Javascript",
+          "id": 16
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "",
+        "target_port": "Javascript",
+        "source": {
+          "name": "To Javascript",
+          "id": 16
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "",
+        "target_port": "Python",
+        "source": {
+          "name": "To Python",
+          "id": 20
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "✗",
+        "target_port": "✗",
+        "source": {
+          "name": "To Python",
+          "id": 20
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "",
+        "target_port": "WASM",
+        "source": {
+          "name": "To Wasm",
+          "id": 24
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "✗",
+        "target_port": "✗",
+        "source": {
+          "name": "To Wasm",
+          "id": 24
+        }
+      }
+    ],
+    "file": "arith.drawio"
+  },
+  {
+    "name": "To Common Lisp",
+    "children": [
+      {
+        "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithcl.rwr empty.js -",
+        "id": 5
+      }
+    ],
+    "connections": [
+      {
+        "dir": 0,
+        "source_port": "",
+        "target_port": "",
+        "target": {
+          "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithcl.rwr empty.js -",
+          "id": 5
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "",
+        "target_port": "",
+        "source": {
+          "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithcl.rwr empty.js -",
+          "id": 5
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "✗",
+        "target_port": "✗",
+        "source": {
+          "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithcl.rwr empty.js -",
+          "id": 5
+        }
+      }
+    ],
+    "file": "arith.drawio"
+  },
+  {
+    "name": "To Javascript",
+    "children": [
+      {
+        "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithjs.rwr empty.js -",
+        "id": 5
+      }
+    ],
+    "connections": [
+      {
+        "dir": 0,
+        "source_port": "",
+        "target_port": "",
+        "target": {
+          "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithjs.rwr empty.js -",
+          "id": 5
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "",
+        "target_port": "",
+        "source": {
+          "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithjs.rwr empty.js -",
+          "id": 5
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "✗",
+        "target_port": "✗",
+        "source": {
+          "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithjs.rwr empty.js -",
+          "id": 5
+        }
+      }
+    ],
+    "file": "arith.drawio"
+  },
+  {
+    "name": "To Python",
+    "children": [
+      {
+        "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithpy.rwr empty.js -",
+        "id": 5
+      }
+    ],
+    "connections": [
+      {
+        "dir": 0,
+        "source_port": "",
+        "target_port": "",
+        "target": {
+          "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithpy.rwr empty.js -",
+          "id": 5
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "",
+        "target_port": "",
+        "source": {
+          "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithpy.rwr empty.js -",
+          "id": 5
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "✗",
+        "target_port": "✗",
+        "source": {
+          "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithpy.rwr empty.js -",
+          "id": 5
+        }
+      }
+    ],
+    "file": "arith.drawio"
+  },
+  {
+    "name": "To Wasm",
+    "children": [
+      {
+        "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithwasm.rwr empty.js -",
+        "id": 5
+      }
+    ],
+    "connections": [
+      {
+        "dir": 0,
+        "source_port": "",
+        "target_port": "",
+        "target": {
+          "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithwasm.rwr empty.js -",
+          "id": 5
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "",
+        "target_port": "",
+        "source": {
+          "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithwasm.rwr empty.js -",
+          "id": 5
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "✗",
+        "target_port": "✗",
+        "source": {
+          "name": ":$ pbp/t2t.bash . ./pbp arith.ohm arithwasm.rwr empty.js -",
+          "id": 5
+        }
+      }
+    ],
+    "file": "arith.drawio"
+  }
+]
