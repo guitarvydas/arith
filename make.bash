@@ -18,18 +18,12 @@ if [ "$SIZE" -gt 2 ]; then
 else
     echo '** code for arithmetic expression written in a little DSL **'
     cat ${TARGET}.math
-    echo '** Javascript **'
+    echo '** transpiled to Javascript **'
     cat ex1.js
-    echo
-    echo
-    echo '** Python **'
+    echo '** transpiled to Python **'
     cat ex1.py
-    echo
-    echo
-    echo '** lisp **'
+    echo '** transpiled to lisp **'
     cat ex1.lisp
-    echo
-    echo
-    echo '** wasm **'
+    echo '** transpiled to wasm **'
     cat ex1.js
 fi
