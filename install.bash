@@ -1,2 +1,3 @@
 #!/bin/bash
-echo '*** install.bash is currently empty ***'
+npm install yargs prompt-sync ohm-js
+
