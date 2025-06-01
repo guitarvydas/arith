@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+set -o pipefail
 node pbp/das/das2json.mjs arith.drawio
 rm -f out.*
 TARGET=ex1
