@@ -11,7 +11,7 @@ mv out.js ${TARGET}.js
 mv out.lisp ${TARGET}.lisp
 mv out.wasm ${TARGET}.wasm
 
-SIZE=$(stat -f '%z' out.md)  # This will fail and exit due to set -e
+SIZE=$(wc -c < out.md)
 if [ "$SIZE" -gt 2 ]; then
     echo '** Messages **'
     cat out.md
