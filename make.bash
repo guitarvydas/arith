@@ -16,6 +16,8 @@ if [ "$SIZE" -gt 2 ]; then
     echo '** Messages **'
     cat out.md
 else
+    echo '** code for arithmetic expression written in a little DSL **'
+    cat ${TARGET}.math
     echo '** Javascript **'
     cat ex1.js
     echo
