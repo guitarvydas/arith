@@ -26,5 +26,5 @@ else
     echo '** transpiled to lisp **'
     cat ex1.lisp
     echo '** transpiled to wasm **'
-    cat ex1.js
+    cat ex1.wasm
 fi
