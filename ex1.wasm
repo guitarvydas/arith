@@ -1,2 +1,1 @@
-
 (f64.div (f64.mul (local.get $v) (f64.sub 42 1)) (f64.pow 9 3))

@@ -12,9 +12,9 @@
   ExpExp_power [PriExp kcaret ExpExp] = ‛«PriExp»**«ExpExp»’
   ExpExp       [PriExp]               = ‛«PriExp»’
 
-  PriExp_paren  [lp Exp rp] = ‛«Exp»’
+  PriExp_paren  [lp Exp rp] = ‛(«Exp»)’
   PriExp_pos    [kplus  Exp] = ‛«Exp»’
-  PriExp_neg    [kminus Exp] = ‛-«Exp»’
+  PriExp_neg    [kminus Exp] = ‛(-«Exp»)’
   PriExp        [x]          = ‛«x»’
 
   ident [letter alnumz*] = ‛«letter»«alnumz»’
