@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 set -o pipefail
+npm install
 node pbp/das/das2json.mjs arith.drawio
 rm -f out.*
 TARGET=ex1
