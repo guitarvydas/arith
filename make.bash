@@ -12,7 +12,7 @@ mv out.js ${TARGET}.js
 mv out.lisp ${TARGET}.lisp
 mv out.wasm ${TARGET}.wasm
 
-SIZE=$("wc -c < out.md")
+SIZE=$(wc -c < out.md)
 if [ "$SIZE" -gt 2 ]; then
     echo '** Messages **'
     cat out.md
