@@ -2,5 +2,6 @@
 node_modules/*
 _*
 temp.*
+*.pyc
 */.DS_Store
 
