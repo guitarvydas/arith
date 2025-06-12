@@ -34,7 +34,7 @@ Each of the emitters uses `t2t` to generate code (`t2t` is a tool that performs 
 
 
 # See Also
-DETAILS.md - files and directories
+[DETAILS.md](DETAILS.md) - files and directories
 
 See [abc](https://github.com/guitarvydas/abc/tree/master) for a simple example of transpiling a do-nothing language. See [abc2py](https://github.com/guitarvydas/abc2py) for the same simple example language the emits running, legal Python code.
 
