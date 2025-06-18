@@ -1,4 +1,5 @@
 # Simple Example of Parts-Based Programming using Drawware
+![arith](./arith-main.drawio.svg)
 - source code is a drawing `arith.drawio` (view/edit with [draw.io](https://app.diagrams.net))
 - uses stock example grammar that comes with OhmJS for arithmetic expressions and compiles to Javascript and Python and Lisp and Wasm all at once
 
